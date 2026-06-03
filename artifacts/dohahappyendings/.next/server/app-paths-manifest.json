@@ -1,5 +1,8 @@
 {
   "/page": "app/page.js",
   "/browse/page": "app/browse/page.js",
-  "/premium/page": "app/premium/page.js"
+  "/signup/giver/page": "app/signup/giver/page.js",
+  "/login/page": "app/login/page.js",
+  "/about/page": "app/about/page.js",
+  "/privacy/page": "app/privacy/page.js"
 }
