@@ -1,0 +1,16 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/about/page": "/about",
+  "/age-policy/page": "/age-policy",
+  "/browse/page": "/browse",
+  "/contact/page": "/contact",
+  "/how-it-works/page": "/how-it-works",
+  "/premium/page": "/premium",
+  "/page": "/",
+  "/privacy/page": "/privacy",
+  "/signup/giver/page": "/signup/giver",
+  "/signup/client/page": "/signup/client",
+  "/signup/page": "/signup",
+  "/terms/page": "/terms",
+  "/login/page": "/login"
+}

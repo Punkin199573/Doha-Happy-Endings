@@ -1,0 +1,7 @@
+{
+  "buildCommand": "pnpm --filter @workspace/dohahappyendings run build",
+  "outputDirectory": "artifacts/dohahappyendings/.next",
+  "framework": "nextjs",
+  "installCommand": "pnpm install",
+  "devCommand": "pnpm --filter @workspace/dohahappyendings run dev"
+}

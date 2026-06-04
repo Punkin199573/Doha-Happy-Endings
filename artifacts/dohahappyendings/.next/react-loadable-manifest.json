@@ -1,6 +1,6 @@
 {
   "lib/supabase.ts -> @/utils/supabase/client": {
-    "id": "lib/supabase.ts -> @/utils/supabase/client",
+    "id": 5243,
     "files": []
   }
 }
