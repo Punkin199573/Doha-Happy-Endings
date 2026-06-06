@@ -1,5 +1,16 @@
 {
-  "/page": "app/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/age-policy/page": "app/age-policy/page.js",
+  "/about/page": "app/about/page.js",
   "/browse/page": "app/browse/page.js",
-  "/premium/page": "app/premium/page.js"
+  "/how-it-works/page": "app/how-it-works/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/page": "app/page.js",
+  "/premium/page": "app/premium/page.js",
+  "/privacy/page": "app/privacy/page.js",
+  "/login/page": "app/login/page.js",
+  "/signup/page": "app/signup/page.js",
+  "/signup/client/page": "app/signup/client/page.js",
+  "/terms/page": "app/terms/page.js",
+  "/signup/giver/page": "app/signup/giver/page.js"
 }
