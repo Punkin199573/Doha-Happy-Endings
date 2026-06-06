@@ -1,8 +1,8 @@
 {
   "framework": null,
   "installCommand": "pnpm install",
-  "buildCommand": "pnpm --filter @workspace/dohahappyendings run build",
-  "outputDirectory": "artifacts/dohahappyendings/out",
+  "buildCommand": "pnpm --filter @workspace/dohahappyendings run build && cp -r artifacts/dohahappyendings/out out",
+  "outputDirectory": "out",
   "headers": [
     {
       "source": "/(.*)",
