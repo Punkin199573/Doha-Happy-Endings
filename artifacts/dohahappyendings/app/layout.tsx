@@ -5,9 +5,8 @@ import { Footer } from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "DohaHappyEndings — Where Desire Meets Discretion",
-  description:
-    "Doha's premier luxury connection platform. Seamlessly connect pleasure givers and seekers with absolute privacy and class.",
-  keywords: ["Doha", "connections", "luxury", "discreet", "premium"],
+  description: "Doha's most exclusive luxury connection platform. Verified pleasure givers, absolute privacy, and unforgettable experiences.",
+  keywords: ["Doha", "connections", "luxury", "discreet", "premium", "exclusive"],
   openGraph: {
     title: "DohaHappyEndings",
     description: "Where Desire Meets Discretion",
@@ -15,14 +14,10 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className="min-h-screen bg-obsidian text-silver-light antialiased">
+      <body className="min-h-screen antialiased" style={{ background: "#080208", color: "#F0E4DC" }}>
         <Navbar />
         <main>{children}</main>
         <Footer />

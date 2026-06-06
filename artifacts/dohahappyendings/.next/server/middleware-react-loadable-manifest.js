@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST="{}"
+self.__REACT_LOADABLE_MANIFEST='{"lib/supabase.ts -> @/utils/supabase/client":{"id":5243,"files":[]}}';

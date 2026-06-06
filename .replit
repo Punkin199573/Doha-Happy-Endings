@@ -30,3 +30,9 @@ externalPort = 80
 [[ports]]
 localPort = 25021
 externalPort = 3000
+
+[userenv]
+
+[userenv.shared]
+NEXT_PUBLIC_SUPABASE_URL = "https://vkwgtvncortfxxnqbfgs.supabase.co"
+NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY = "sb_publishable_uYcGN5MiergPtJgAg0Ig8Q_IixfWG1P"

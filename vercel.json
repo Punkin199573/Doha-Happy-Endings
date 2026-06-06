@@ -1,0 +1,6 @@
+{
+  "_comment": "Root-level vercel.json is intentionally minimal. Set Root Directory to artifacts/dohahappyendings in Vercel Project Settings.",
+  "buildCommand": "pnpm --filter @workspace/dohahappyendings run build",
+  "outputDirectory": "artifacts/dohahappyendings/.next",
+  "installCommand": "pnpm install"
+}
