@@ -1,7 +1,7 @@
 {
   "framework": null,
   "installCommand": "pnpm install",
-  "buildCommand": "pnpm --filter @workspace/dohahappyendings run build && cp -r artifacts/dohahappyendings/out out",
+  "buildCommand": "pnpm run vercel-build",
   "outputDirectory": "out",
   "headers": [
     {
