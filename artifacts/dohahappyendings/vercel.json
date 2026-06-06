@@ -1,6 +1,6 @@
 {
   "installCommand": "cd ../.. && pnpm install",
-  "buildCommand": "cd ../.. && pnpm --filter @workspace/dohahappyendings run build",
+  "buildCommand": "pnpm build",
   "outputDirectory": "out",
   "headers": [
     {
