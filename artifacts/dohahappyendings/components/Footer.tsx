@@ -33,7 +33,14 @@ export function Footer() {
             </div>
             <div className="flex items-center gap-3 mt-5">
               {[Instagram, Twitter].map((Icon, i) => (
-                <a key={i} href="#" className="w-9 h-9 rounded-full glass flex items-center justify-center text-silver-600 hover:text-gold-400 hover:border-gold-500/40 transition-all">
+                <a
+                  key={i}
+                  href="#"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  aria-label={i === 0 ? "Instagram" : "Twitter"}
+                  className="w-9 h-9 rounded-full glass flex items-center justify-center text-silver-600 hover:text-gold-400 hover:border-gold-500/40 transition-all"
+                >
                   <Icon className="w-4 h-4" />
                 </a>
               ))}

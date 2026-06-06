@@ -40,19 +40,19 @@ export function Navbar() {
 
           {/* ── Logo ── BIG on every screen ── */}
           <Link href="/" className="flex items-center gap-3 group flex-shrink-0">
-            <div className="relative w-28 h-28 sm:w-32 sm:h-32 md:w-36 md:h-36 overflow-visible">
+            <div className="relative w-14 h-14 sm:w-16 sm:h-16 md:w-18 md:h-18 overflow-visible">
               <Image
                 src="/logo-transparent.png"
                 alt="DohaHappyEndings"
                 fill
-                sizes="(max-width: 640px) 112px, (max-width: 768px) 128px, 144px"
-                className="object-contain drop-shadow-[0_0_18px_rgba(255,215,0,0.75)] group-hover:drop-shadow-[0_0_35px_rgba(255,215,0,1)] transition-all duration-500 scale-110"
+                sizes="(max-width: 640px) 56px, (max-width: 768px) 64px, 72px"
+                className="object-contain drop-shadow-[0_0_12px_rgba(255,215,0,0.75)] group-hover:drop-shadow-[0_0_26px_rgba(255,215,0,1)] transition-all duration-500"
                 priority
               />
             </div>
             <div className="hidden sm:block">
-              <p className="font-display text-xl font-black leading-none text-gold-gradient tracking-[0.3em]">DOHA</p>
-              <p className="font-body text-[9px] tracking-[0.5em] text-silver-500 uppercase mt-1 font-medium">Happy Endings</p>
+              <p className="font-display text-base font-black leading-none text-gold-gradient tracking-[0.35em]">DOHA</p>
+              <p className="font-body text-[10px] tracking-[0.45em] text-silver-500 uppercase mt-1 font-medium">Happy Endings</p>
             </div>
           </Link>
 
@@ -94,6 +94,8 @@ export function Navbar() {
             className="md:hidden text-silver-300 hover:text-gold-400 transition-colors p-2"
             onClick={() => setMobileOpen(!mobileOpen)}
             aria-label="Toggle menu"
+            aria-expanded={mobileOpen}
+            aria-controls="mobile-menu"
           >
             {mobileOpen ? <X className="w-7 h-7" /> : <Menu className="w-7 h-7" />}
           </button>

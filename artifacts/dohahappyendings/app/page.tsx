@@ -145,6 +145,24 @@ export default function HomePage() {
             </Link>
           </motion.div>
 
+          <motion.div
+            initial={{ opacity: 0, y: 18 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.75, delay: 0.58 }}
+            className="grid grid-cols-1 sm:grid-cols-3 gap-3 max-w-3xl mx-auto mb-12"
+          >
+            {[
+              { label: "Encrypted Messaging", icon: Lock },
+              { label: "Verified Selectors", icon: Shield },
+              { label: "Discreet Access", icon: Eye },
+            ].map((item) => (
+              <div key={item.label} className="glass rounded-full px-5 py-3 text-center text-sm text-silver-300 font-medium tracking-wide">
+                <item.icon className="inline w-4 h-4 mr-2 text-gold-400 align-text-bottom" />
+                {item.label}
+              </div>
+            ))}
+          </motion.div>
+
           {/* Stats */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
